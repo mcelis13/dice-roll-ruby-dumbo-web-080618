@@ -8,9 +8,9 @@ def roll
 end
 
 #Bonus
-namesArray = ['Madeline', 'Julia', 'Jeff', 'Elise', 'Victor', 'Regina']
 
 def getRandNameFromArray
+  namesArray = ['Madeline', 'Julia', 'Jeff', 'Elise', 'Victor', 'Regina']
   return namesArray[rand(1..5)]
 end
 
