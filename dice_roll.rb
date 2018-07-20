@@ -6,3 +6,13 @@ def roll
   return rand(1..6) #if you use two dots it includes the 6 at the end
   # if you use three dots it excludes the last number in this case the 6
 end
+
+#Bonus
+
+def getRandNameFromArray
+  namesArray = ['Madeline', 'Julia', 'Jeff', 'Elise', 'Victor', 'Regina']
+  puts namesArray[rand(1..5)]
+  return namesArray[rand(1..5)]
+end
+
+getRandNameFromArray
