@@ -14,4 +14,4 @@ def getRandNameFromArray
   return namesArray[rand(1..5)]
 end
 
-getRandNameFromArray
+getRandNameFromArray()
