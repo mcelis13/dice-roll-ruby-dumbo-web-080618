@@ -11,7 +11,8 @@ end
 
 def getRandNameFromArray
   namesArray = ['Madeline', 'Julia', 'Jeff', 'Elise', 'Victor', 'Regina']
+  puts namesArray[rand(1..5)]
   return namesArray[rand(1..5)]
 end
 
-getRandNameFromArray()
+getRandNameFromArray
